@@ -55,3 +55,30 @@ label {
     height: 100%; /*You will need to change this property using JS*/
 }
 
+.menu {
+    float:right;
+	width:60%;
+ 	background-color:#338c27;
+ 	overflow: hidden;
+}
+
+.menu a {
+float: left;
+ 	color: white;
+  	text-align: center;
+  	padding: 10px 30px;
+  	text-decoration: underline;
+  	font-size: 17px;
+}
+
+/* color of links on hover */
+.menu a:hover {
+  	background-color: white;
+  	color: #338c27;
+}
+
+/* color of active link */
+.menu a.active {
+  	background-color: #C52F2A;
+  	color: white;
+}
