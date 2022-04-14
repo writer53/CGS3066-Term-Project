@@ -1,0 +1,100 @@
+/*############## READ ONLY  ##############*/
+
+body {
+
+    background-color: white;
+    font-family: Verdana, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto 0; /* top left&right bottom */
+}
+
+.row {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+
+}
+
+#menu-container {
+
+}
+
+.column {
+    display: inline-block;
+    width: 49%;
+    min-height: 600px;
+}
+
+#result-container {
+    position: relative;
+}
+
+#result {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50% auto 0;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.subrow {
+    margin-top: 10px;
+}
+
+.result_row {
+    width: 100%;
+    height: 100%; /*You will need to change this property using JS*/
+}
+
+header {
+    	display: block;
+    	width: 100%;
+    	padding: 1em;
+   	overflow: auto;
+	border-style: solid;
+	background-color:white;
+}
+
+H1{
+	Float:left;
+	Width:40%;
+	Color:#338c27;
+	Text-transform:uppercase;
+}
+
+.menu {
+    float:right;
+	width:60%;
+ 	background-color:#338c27;
+ 	overflow: hidden;
+}
+
+.menu a {
+float: left;
+ 	color: white;
+  	text-align: center;
+  	padding: 10px 30px;
+  	text-decoration: underline;
+  	font-size: 17px;
+}
+
+/* color of links on hover */
+.menu a:hover {
+  	background-color: white;
+  	color: #338c27;
+}
+
+/* color of active link */
+.menu a.active {
+  	background-color: #C52F2A;
+  	color: white;
+}
