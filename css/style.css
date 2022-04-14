@@ -98,3 +98,13 @@ float: left;
   	background-color: #C52F2A;
   	color: white;
 }
+
+.footer {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: #338c27;
+  	color: white;
+  	text-align: center;
+}
