@@ -55,6 +55,22 @@ label {
     height: 100%; /*You will need to change this property using JS*/
 }
 
+header {
+    	display: block;
+    	width: 100%;
+    	padding: 1em;
+   	overflow: auto;
+	border-style: solid;
+	background-color:white;
+}
+
+H1{
+	Float:left;
+	Width:40%;
+	Color:#338c27;
+	Text-transform:uppercase;
+}
+
 .menu {
     float:right;
 	width:60%;
