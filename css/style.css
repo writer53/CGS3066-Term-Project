@@ -55,6 +55,22 @@ label {
     height: 100%; /*You will need to change this property using JS*/
 }
 
+/* image carosel code */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+
+
 header {
     	display: block;
     	width: 100%;
