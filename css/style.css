@@ -1,10 +1,13 @@
 /*############## READ ONLY  ##############*/
-
+  * {
+        box-sizing: border-box
+      }
 body {
 
     background-color: white;
     font-family: Verdana, Arial, sans-serif;
     box-sizing: border-box;
+	margin: 0
 }
 
 .container {
@@ -26,7 +29,7 @@ body {
 .column {
     display: inline-block;
     width: 49%;
-    min-height: 600px;
+    min-height: 300px;
 }
 
 #result-container {
@@ -55,20 +58,21 @@ label {
     height: 100%; /*You will need to change this property using JS*/
 }
 
-/* image carosel code */
-* {box-sizing:border-box}
+	
+      .mySlides {
+        display: none
+      }
+      img {
+        vertical-align: middle;
+      }
+      .slideshow-container {
+        max-width: 500px;
+         position: relative;
+        margin: auto;
+      }
+      
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
 
-/* Make the images invisible by default */
-.Containers {
-  display: none;
-}
 
 
 header {
