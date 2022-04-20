@@ -121,7 +121,8 @@ float: left;
 }
 
 .paragraph{
-	position: relative;
+	padding: 10% 0;
+        border: 3px dashed #1c87c9;
 	
 }
 
