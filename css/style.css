@@ -120,6 +120,11 @@ float: left;
   	color: white;
 }
 
+.paragraph{
+	position: relative;
+	down: 50px;
+}
+
 .footer {
 	position: fixed;
   	left: 0;
