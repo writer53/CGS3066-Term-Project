@@ -43,17 +43,47 @@
 			<h2> Table 3066 - Resturant Hours
 		</div>
 	    	<div class= "paragraph">
-			<h3> MONDAY: 7-5
-			<h3> TUESDAY: 7-5
-			<h3> WEDNESDAY: 7-5
-			<h3> THURSDAY: 7-5
-			<h3> FRIDAY: 7-6
-			<h3> SATURDAY: 10-6
-			<h3> SUNDAY: 10-6
+			<h3> MONDAY: <span class='start'>7:00 am</span> - <span class='end'>5:00 pm</span>
+			<h3> TUESDAY: 7:00 am - 5:00 pm
+			<h3> WEDNESDAY: 7:00 am - 5:00 pm
+			<h3> THURSDAY: 7:00 am - 5:00 pm
+			<h3> FRIDAY: 7:00 am - 5:00 pm
+			<h3> SATURDAY: 7:00 am - 5:00 pm
+			<h3> SUNDAY: 7:00 am - 5:00 pm
 	    	</div>
+            <span id="display"></span>
+<div id="open" style="display: none;">Shop is open</div>
+<div id="closed" style="display: none;">Shop is closed</div>
 		</div>
-			
-			
+
+<script> 
+var da = new Date();
+document.getElementById("display").innerHTML = da.toDateString();
+var time = da.getHours();
+
+//15
+
+//gets the current time. 
+//var d = new Date();
+var x = document.getElementsByClassName("start")[0].innerText;
+var z = document.getElementsByClassName("end")[0].innerText;
+//var o = parseInt(x,10);
+//var c = parseInt(z,10);
+
+var startTime = '7';
+var endTime = '17';
+var Open = document.getElementById("open");
+var Closed = document.getElementById("closed");
+
+if (parseInt(time) < parseInt(endTime) && parseInt(time) > parseInt(startTime)){
+    Open.style.display = "block";
+    Closed.style.display = "none";
+}
+else {  
+    Open.style.display = "none";
+    Closed.style.display = "block";
+}		
+</script>		
 			
     </body>
     <div class= "image">
