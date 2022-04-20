@@ -90,8 +90,6 @@ H1{
 	Color:white;
 	Text-transform:uppercase;
 }
-//green #338c27
-//red #C52F2A
 
 .menu {
     float:right;
@@ -102,10 +100,9 @@ H1{
 
 .menu a {
 float: left;
- 	color: white;
+ 	backgorund-color: white;
   	text-align: center;
   	padding: 10px 30px;
-  	text-decoration: underline;
   	font-size: 17px;
 }
 
