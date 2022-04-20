@@ -82,7 +82,6 @@ header {
    	overflow: auto;
 	border-style: solid;
 	background-color:#338c27;
-	font-family: Italianno, fantasy;
 }
 
 H1{
@@ -90,6 +89,7 @@ H1{
 	Width:40%;
 	Color:white;
 	font-size: 40px;
+	Text-transform:uppercase;
 }
 
 .menu {
