@@ -123,6 +123,7 @@ float: left;
 .paragraph{
 	position: relative;
 	down: 50px;
+	text-align: center;
 }
 
 .footer {
