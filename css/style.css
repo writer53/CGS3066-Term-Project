@@ -96,6 +96,7 @@ H1{
 	width:60%;
  	background-color:#C52F2A;
  	overflow: hidden;
+	text-decoration: underline;
 }
 
 .menu a {
@@ -114,7 +115,7 @@ float: left;
 
 /* color of active link */
 .menu a.active {
-  	background-color: #C52F2A;
+  	background-color: #338c27;
   	color: white;
 }
 
