@@ -94,17 +94,17 @@ H1{
 .menu {
     float:right;
 	width:60%;
- 	background-color:#C52F2A;
+ 	background-color:white;
  	overflow: hidden;
-	text-decoration: underline;
 }
 
 .menu a {
 float: left;
- 	backgorund-color: white;
+ 	backgorund-color: #338c27;
   	text-align: center;
   	padding: 10px 30px;
-  	font-size: 17px;
+	text-decoration: underline;
+  	font-size: 20px;
 }
 
 /* color of links on hover */
@@ -115,8 +115,8 @@ float: left;
 
 /* color of active link */
 .menu a.active {
-  	background-color: #338c27;
-  	color: white;
+  	background-color: white;
+  	color: #C52F2A;
 }
 
 .footer {
