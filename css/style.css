@@ -115,8 +115,8 @@ float: left;
 
 /* color of active link */
 .menu a.active {
-  	background-color: white;
-  	color: #C52F2A;
+  	background-color: #C52F2A;
+  	color: white;
 }
 
 .footer {
