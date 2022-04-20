@@ -81,20 +81,22 @@ header {
     	padding: 1em;
    	overflow: auto;
 	border-style: solid;
-	background-color:white;
+	background-color:#338c27;
 }
 
 H1{
 	Float:left;
 	Width:40%;
-	Color:#338c27;
+	Color:white;
 	Text-transform:uppercase;
 }
+//green #338c27
+//red #C52F2A
 
 .menu {
     float:right;
 	width:60%;
- 	background-color:#338c27;
+ 	background-color:#C52F2A;
  	overflow: hidden;
 	text-align:center;
 	display: inline;
@@ -111,8 +113,8 @@ float: left;
 
 /* color of links on hover */
 .menu a:hover {
-  	background-color: white;
-  	color: #338c27;
+  	background-color: #338c27;
+  	color: white;
 }
 
 /* color of active link */
