@@ -97,6 +97,7 @@ H1{
  	background-color:#338c27;
  	overflow: hidden;
 	text-align:center;
+	display: inline;
 }
 
 .menu a {
