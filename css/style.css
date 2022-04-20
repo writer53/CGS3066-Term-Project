@@ -82,7 +82,7 @@ header {
    	overflow: auto;
 	border-style: solid;
 	background-color:#338c27;
-	font-family: Semplicita, fantasy;
+	font-family: "Regio Emilia Demo", fantasy;
 }
 
 H1{
@@ -90,6 +90,7 @@ H1{
 	Width:40%;
 	Color:white;
 	Text-transform:uppercase;
+	font-size: 30px;
 }
 
 .menu {
