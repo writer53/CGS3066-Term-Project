@@ -96,7 +96,7 @@ H1{
 .menu {
     float:right;
 	width:60%;
- 	background-color:#C52F2A;
+ 	background-color:white;
  	overflow: hidden;
 	text-align:center;
 	display: inline;
@@ -104,7 +104,7 @@ H1{
 
 .menu a {
 float: left;
- 	color: white;
+ 	color: #338c27;
   	text-align: center;
   	padding: 10px 30px;
   	text-decoration: underline;
